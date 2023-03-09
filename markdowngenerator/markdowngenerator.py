@@ -683,7 +683,7 @@ class MarkdownGenerator:
                     else:
                         self.writeText(f"| {row.get(key)} ", html_escape)
                 self.writeTextLine(f"|")
-        self.writeTextLine()
+        # self.writeTextLine()
 
     def insertDetailsAndSummary(
         self, summary_name="Click me to collapse/fold.", escape_html=True
