@@ -566,9 +566,9 @@ class MarkdownGenerator:
         self,
         header_names: List[str] = None,
         row_elements=None,
-        alignment="center",
+        alignment="left",
         dictionary_list=None,
-        html_escape=True,
+        html_escape=False,
         capitalize_headers=False,
     ):
         """
